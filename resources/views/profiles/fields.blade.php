@@ -33,7 +33,7 @@
 <div class="form-group col-sm-6">
     {!! Form::label('photo', 'Photo:') !!}
     <!-- {!! Form::file('photo', null, ['class' => 'form-control']) !!} -->
-    <img src="{{ asset('/public/img/'.$profile->photo) }}" class="img-change form-control"/>
+    <img src="{{ asset('/img/'.$profile->photo) }}" class="img-change form-control"/>
     <input type="file" name="photo" class="form-control" value="">
 </div>
 
