@@ -8,7 +8,7 @@
        <div class="form-group col-sm-4 box box-solid box-warning">
            <div class="box-body">
                <div class="row">
-                  {!! Form::model(['route' => ['laporandpt'], 'method' => 'get']) !!}
+                  {!! Form::model(['route' => ['laporandpt'], 'method' => 'get','target'=>'_blank']) !!}
 
                       <!-- Nama Field -->
                       <div class="form-group col-sm-2">
