@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
    
-    <link rel="stylesheet" href="{{ asset('/public/css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
 
     @yield('css')
 </head>
@@ -44,7 +44,7 @@
                 <b>PAT</b>
             </a> -->
             <div class="logo">
-                <img src="{{ URL::asset('/public/img/logo.png') }}" class="logo-pat">
+                <img src="{{ URL::asset('/img/logo.png') }}" class="logo-pat">
             </div>
             <!-- Header Navbar -->
             <nav class="navbar navbar-static-top" role="navigation">
@@ -61,7 +61,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <div class="profile-box">
                                 <!-- The user image in the navbar-->
-                                <img src="{{ asset('/public/img/'.Auth::user()->photo)}}"
+                                <img src="{{ asset('/img/'.Auth::user()->photo)}}"
                                      class="user-image" alt="User Image"/>
                                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
                                 <div class="profile-name">
@@ -73,7 +73,7 @@
                             <ul class="dropdown-menu">
                                 <!-- The user image in the menu -->
                                 <li class="user-header">
-                                    <img src="{{ asset('/public/img/'.Auth::user()->photo)}}"
+                                    <img src="{{ asset('/img/'.Auth::user()->photo)}}"
                                          class="img-circle" alt="User Image"/>
                                     <p>
                                         {!! Auth::user()->name !!}
