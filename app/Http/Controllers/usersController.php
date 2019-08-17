@@ -26,7 +26,6 @@ class usersController extends AppBaseController
             return datatables()->of(DB::table('users')
                     ->leftJoin('groups', 'groups.id', '=', 'users.id_group')
                     ->select('users.id as id','users.name as name','users.phone as phone','users.email as email','users.jk as jk','users.alamat as alamat' , 'groups.nama as nama_group')
-                    ->orderby('users.created_at','DESC')
                     ->latest()
                     ->get())
                     ->addColumn('action', function($data){
