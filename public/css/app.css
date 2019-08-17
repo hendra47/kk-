@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);img.tableLogo {
+  height: 75px;
+}
+
+.profile-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.profile-group {
+  font-size: 10px;
+}
+
+.navbar-nav > .user-menu .user-image {
+  float: left;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.main-header {
+  min-height: 70px;
+}
+
+.main-sidebar {
+  margin-top: 40px;
+}
+
+.main-header .logo {
+  height: 70px;
+}
+
+.main-header .sidebar-toggle {
+  height: 70px;
+  width: 70px;
+}
+
+.sidebar-toggle {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.logo-pat {
+  height: 70px;
+}
+
+.no-rounded {
+  border-radius: 0px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #dddddd;
+}
+
+.flex-radio {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  width: 120px;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.img-change {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
