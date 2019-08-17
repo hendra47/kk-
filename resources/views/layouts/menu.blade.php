@@ -1,5 +1,5 @@
 <li class="{{ Request::is('home') ? 'active' : '' }}">
-    <a href="{!! route('home') !!}"><i class="fa fa-home"></i><span>Home</span></a>
+    <a href="https://cariprogram.id/repositories/klinik/public/home"><i class="fa fa-home"></i><span>Home</span></a>
 </li>
 
 <li class="{{ Request::is('rekamMedis*') ? 'active' : '' }}">
