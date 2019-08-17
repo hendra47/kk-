@@ -116,7 +116,7 @@
                             idObat=1;
                         }
                         $("#obatTable > tbody").append("<tr id='obat-"+idObat+"'><td> <select id='nama_obat_"+idObat+"' name='nama_obat[]' class='form-control'></select> </td> </td> <td> <input type='text' name='qty[]' class='form-control' /> </td> <td> <input type='text' name='note_obat[]' class='form-control' /> </td>  <td> <a href='javascript:void(0);' onclick='hapus("+idObat+")' class='btn btn-danger'><i class='fa fa-trash'> </i></a> </td> </tr>");
-                        $.getJSON("/obat-list", function(data) {
+                        $.getJSON("/repositories/klinik/public/obat-list", function(data) {
                             const dataObat = data.data;
                             console.log(idObat);
                             // $("#nama_obat_"+idObat).remove();
@@ -145,7 +145,7 @@
                             idTindakan=1;
                         }
                         $("#tindakanTable > tbody").append("<tr id='tindakan-"+idTindakan+"'><td><select id='nama_tindakan_"+idTindakan+"' name='nama_tindakan[]' class='form-control'></select></td><td><a href='javascript:void(0);' onclick='hapus("+idTindakan+")' class='btn btn-danger'><i class='fa fa-trash'> </i></a> </td> </tr>");
-                        $.getJSON("/tindakan-list", function(data) {
+                        $.getJSON("/repositories/klinik/public/tindakan-list", function(data) {
                             const dataTindakan = data.data;
                             console.log(idTindakan);
                             // $("#nama_Tindakan_"+idTindakan).remove();
